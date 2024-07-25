@@ -1,0 +1,30 @@
+body {
+    background-color: #0078d7;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.emoji {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.message, .progress, .info {
+    margin-bottom: 20px;
+}
+
+.qr-code {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
